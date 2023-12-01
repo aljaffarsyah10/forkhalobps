@@ -28555,3 +28555,445 @@ Compile css/palettes/lightblue.scss  {"user":"2@YOSRAL-34005894"}
   Backtrace :
   front\locale.php:97                                trigger_error()
   
+[2023-10-01 02:31:58] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/1045): Access denied for user 'halosisw_halodev'@'localhost' (using password: YES) in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:116                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:89                                       include()
+  
+[2023-10-01 02:31:58] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "glpilanguage" in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\src\Html.php at line 1232
+  Backtrace :
+  src\Html.php:2156                                  Html::includeHeader()
+  src\DBConnection.php:600                           Html::nullHeader()
+  src\DBConnection.php:536                           DBConnection::displayMySQLError()
+  inc\config.php:116                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:89                                       include()
+  
+[2023-10-01 02:31:58] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "" in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\src\Html.php at line 1232
+  Backtrace :
+  src\Html.php:2156                                  Html::includeHeader()
+  src\DBConnection.php:600                           Html::nullHeader()
+  src\DBConnection.php:536                           DBConnection::displayMySQLError()
+  inc\config.php:116                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:89                                       include()
+  
+[2023-10-01 02:31:58] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\src\Html.php at line 1232
+  Backtrace :
+  src\Html.php:2156                                  Html::includeHeader()
+  src\DBConnection.php:600                           Html::nullHeader()
+  src\DBConnection.php:536                           DBConnection::displayMySQLError()
+  inc\config.php:116                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:89                                       include()
+  
+[2023-10-01 14:06:17] glpiphplog.WARNING: Test logger  
+[2023-10-01 14:06:18] glpiphplog.WARNING: Test logger  
+[2023-10-01 14:06:19] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:06:19] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:16:09] glpiphplog.DEBUG: Html::compileScss() in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\src\Html.php line 6859
+Compile css/palettes/lightblue.scss  {"user":"@LAPTOP-3MMPAATE"} 
+[2023-10-01 14:16:22] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:16:22] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:16:27] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:16:27] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:16:40] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:16:40] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:17:39] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:17:39] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:17:43] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:17:43] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:17:46] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:17:46] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:17:51] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:17:51] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:17:53] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:17:53] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:18:07] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:18:07] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:18:09] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:18:09] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:18:18] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:18:18] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:18:36] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:18:36] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:18:48] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:18:48] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:18:52] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:18:52] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:40:09] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:40:09] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:40:13] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:40:13] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:53:28] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:53:28] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:53:34] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:53:34] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:57:23] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:57:23] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:57:28] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:57:28] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:58:28] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:58:28] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:58:35] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:58:35] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 14:58:39] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 14:58:39] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 15:09:20] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 15:09:20] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 15:09:25] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 15:09:25] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 15:09:35] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 15:09:35] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 15:10:40] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 15:10:40] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 15:12:51] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 15:12:51] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 15:12:54] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 15:12:54] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 15:12:58] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 15:12:58] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 15:13:10] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 15:13:10] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 15:13:12] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 15:13:12] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 15:13:17] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 15:13:17] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 15:13:45] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 15:13:45] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-01 15:13:52] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-01 15:13:52] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-02 16:07:20] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-02 16:07:20] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-10-08 02:57:02] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-10-08 02:57:02] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-11-01 11:09:38] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-11-01 11:09:38] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-11-22 05:08:28] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-11-22 05:08:28] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-11-22 05:11:37] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\src\NotificationTargetTicket.php at line 388
+  Backtrace :
+  src\NotificationTargetCommonITILObject.php:1024    NotificationTargetTicket->getDataForObject()
+  src\NotificationTarget.php:1338                    NotificationTargetCommonITILObject->addDataForTemplate()
+  src\NotificationTemplate.php:278                   NotificationTarget->getForTemplate()
+  src\NotificationEventAbstract.php:127              NotificationTemplate->getTemplateByLanguage()
+  src\NotificationEvent.php:187                      NotificationEventAbstract::raise()
+  src\CommonITILObject.php:7742                      NotificationEvent::raiseEvent()
+  src\Ticket.php:2125                                CommonITILObject->handleNewItemNotifications()
+  src\CommonDBTM.php:1322                            Ticket->post_addItem()
+  front\ticket.form.php:74                           CommonDBTM->add()
+  
+[2023-11-27 11:50:27] glpiphplog.WARNING: Test logger  
+[2023-11-27 11:50:28] glpiphplog.WARNING:   *** PHP Warning (2): Array to string conversion in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\src\Config.php at line 2073
+  Backtrace :
+  src\Config.php:2218                                Config::showSystemInfoTable()
+  src\Config.php:2687                                Config->showSystemInformations()
+  src\CommonGLPI.php:690                             Config::displayTabContentForItem()
+  ajax\common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-11-27 12:00:58] glpiphplog.WARNING:   *** PHP Warning (2): fopen(D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po): Failed to open stream: No such file or directory in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 94
+  Backtrace :
+  front\locale.php:94                                fopen()
+  
+[2023-11-27 12:00:58] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to extract locales data from "D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps/locales/en_US.po". in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\front\locale.php at line 97
+  Backtrace :
+  front\locale.php:97                                trigger_error()
+  
+[2023-11-28 11:14:18] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: long2ip(): Argument #1 ($ip) must be of type int, string given in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\src\APIClient.php at line 237
+  Backtrace :
+  src\APIClient.php:237                              long2ip()
+  src\CommonGLPI.php:677                             APIClient->showForm()
+  ajax\common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-11-28 11:19:07] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: long2ip(): Argument #1 ($ip) must be of type int, string given in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\src\APIClient.php at line 237
+  Backtrace :
+  src\APIClient.php:237                              long2ip()
+  src\CommonGLPI.php:677                             APIClient->showForm()
+  ajax\common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-11-28 11:22:17] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: long2ip(): Argument #1 ($ip) must be of type int, string given in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\src\APIClient.php at line 237
+  Backtrace :
+  src\APIClient.php:237                              long2ip()
+  src\CommonGLPI.php:677                             APIClient->showForm()
+  ajax\common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-11-28 15:49:16] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "password_forget_token" in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\src\Api\API.php at line 2154
+  Backtrace :
+  src\Api\APIRest.php:213                            Glpi\Api\API->lostPassword()
+  apirest.php:58                                     Glpi\Api\APIRest->call()
+  
+[2023-11-28 15:58:04] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "password_forget_token" in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\src\Api\API.php at line 2154
+  Backtrace :
+  src\Api\APIRest.php:213                            Glpi\Api\API->lostPassword()
+  apirest.php:58                                     Glpi\Api\APIRest->call()
+  
+[2023-11-28 15:58:27] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "password_forget_token" in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\src\Api\API.php at line 2154
+  Backtrace :
+  src\Api\APIRest.php:213                            Glpi\Api\API->lostPassword()
+  apirest.php:58                                     Glpi\Api\APIRest->call()
+  
+[2023-11-28 15:59:07] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "password_forget_token" in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\src\Api\API.php at line 2154
+  Backtrace :
+  src\Api\APIRest.php:213                            Glpi\Api\API->lostPassword()
+  apirest.php:58                                     Glpi\Api\APIRest->call()
+  
+[2023-11-28 16:00:13] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "password_forget_token" in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\src\Api\API.php at line 2154
+  Backtrace :
+  src\Api\APIRest.php:213                            Glpi\Api\API->lostPassword()
+  apirest.php:58                                     Glpi\Api\APIRest->call()
+  
+[2023-11-28 16:00:37] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "password_forget_token" in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\src\Api\API.php at line 2154
+  Backtrace :
+  src\Api\APIRest.php:213                            Glpi\Api\API->lostPassword()
+  apirest.php:58                                     Glpi\Api\APIRest->call()
+  
+[2023-11-28 16:28:45] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "items" in D:\Data Aplikasi\xampp php 8.0.2\htdocs\halobps\src\Api\API.php at line 1362
+  Backtrace :
+  src\Api\APIRest.php:184                            Glpi\Api\API->getMultipleItems()
+  apirest.php:58                                     Glpi\Api\APIRest->call()
+  
